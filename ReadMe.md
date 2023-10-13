@@ -4,7 +4,7 @@ In this project, we are using Java threads to generate prime numbers and write t
 
 We've implemented semaphores to prevent process overlap. The producer thread generates elements in the buffer until it's full, and then the consumer thread starts consuming the elements until it's empty.
 
-In the consumer class, I've added a delay to the execution with the line Thread.sleep(100 to facilitate tracking. You can modify the sleep time if needed. To make changes, refer to the following code snippet:
+In the consumer class, I've added a delay to the execution with the line `Thread.sleep(100)` to facilitate tracking. You can modify the sleep time if needed. To make changes, refer to the following code snippet:
 
 ![image](images/Sleep.JPG)
 
